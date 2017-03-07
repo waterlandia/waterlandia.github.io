@@ -17,15 +17,43 @@ Rubik
 
 /*MOBILE*/
 /*Since this is mobile first, no breakpoint is required. Only for hire levels...*/
+
+
+html, body{
+  padding: 0;
+  margin: 0;
+  width:100%;
+  height: 100%;
+}
 body {
   background-color: #F8F8F8;
   font-family: 'Rubik', sans-serif;
   font-size: 20px;
   font-weight: 300;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  background-color: red;
+}
+.container{
+  width: 100%;
+  height: 100%;
+  background-color: green;
 }
 nav {
   background-color: white;
   width: 100%;
+
+}
+.intro {
+  background-color: yellow;
+  margin: 0;
+  padding: 0;
+  
+}
+p {
+  margin: 0;
+
 }
 .navigation:first-child{
   font-size: 2em;
@@ -33,6 +61,11 @@ nav {
 nav ul {
   background-color: purple;
   list-style-type: none;
+  margin: 0;
+  padding: 40px;
+}
+nav ul li {
+  margin-bottom: 20px;
 }
 /*MEDIUM*/
 
