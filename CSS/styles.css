@@ -6,8 +6,9 @@ LightSlateGray
 DodgerBlue, RoyalBlue, SlateBlue, CornFlowerBlue
 
 
-
-
+FONTS
+Rubik
+300,300i,400,400i,700,900
 
 */
 
@@ -16,19 +17,23 @@ DodgerBlue, RoyalBlue, SlateBlue, CornFlowerBlue
 
 /*MOBILE*/
 /*Since this is mobile first, no breakpoint is required. Only for hire levels...*/
-
-
-
 body {
-  background-color: green;
-
-
+  background-color: #F8F8F8;
+  font-family: 'Rubik', sans-serif;
+  font-size: 20px;
+  font-weight: 300;
 }
 nav {
-  background-color: blue;
+  background-color: white;
+  width: 100%;
 }
-
-
+.navigation:first-child{
+  font-size: 2em;
+}
+nav ul {
+  background-color: purple;
+  list-style-type: none;
+}
 /*MEDIUM*/
 
 
