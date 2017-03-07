@@ -9,7 +9,7 @@ DodgerBlue, RoyalBlue, SlateBlue, CornFlowerBlue
 FONTS
 Rubik
 300,300i,400,400i,700,900
-
+Supermecado One
 */
 
 
@@ -40,20 +40,36 @@ body {
   height: 100%;
   background-color: green;
 }
+
+
+
+/*----------NAVIGATION----------*/
 nav {
+  display: none;
+  /*remove this when done ^^^*/
   background-color: white;
   width: 100%;
-
+  /*position: fixed; Add this later*/
 }
 .intro {
-  background-color: yellow;
+  width: 100%;
+  font-family: 'Supermercado One', 'Rubik', sans-serif;
   margin: 0;
   padding: 0;
-  
+
+  display: flex;
+  align-items: center;
 }
 p {
+  background-color: aliceblue;
+  width: 100%;
   margin: 0;
-
+  display: flex;
+  justify-content: space-between;
+}
+.intro p a {
+  padding: 5px 20px;
+  text-decoration: none;
 }
 .navigation:first-child{
   font-size: 2em;
@@ -62,11 +78,16 @@ nav ul {
   background-color: purple;
   list-style-type: none;
   margin: 0;
-  padding: 40px;
+  padding: 30px;
 }
 nav ul li {
   margin-bottom: 20px;
 }
+
+
+/*--------------CONTENT--------------*/
+
+
 /*MEDIUM*/
 
 
