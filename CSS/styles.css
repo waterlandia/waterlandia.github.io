@@ -72,7 +72,7 @@ nav {
 
   width: 100%;
   margin: 0;
-
+  padding: 5px 0;
   background-color: aliceblue;
 
   justify-content: space-between;
@@ -105,7 +105,7 @@ nav ul li {
   flex-direction: column;
 
   width: 100%;
-  height: 100%;  min-height: 2000px;  margin-top: 80px; /*To account for the header*/
+  height: 100%;  min-height: 3000px;  margin-top: 80px; /*To account for the header*/
 
   background-color: pink;
 
@@ -143,8 +143,8 @@ nav ul li {
 }
 
 .mini-sect{
+
   width: 100%;
-  min-height: 500px;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -152,11 +152,81 @@ nav ul li {
 }
 
 .mini-sect h1 {
-  margin: 10px;
+  margin: 20px;
 }
 .mini-sect p{
   margin: 40px;
   margin-top: 10px;
+}
+
+
+.placeholder-image{
+  position: relative;
+
+  width: 100%;
+  height: 400px;
+
+  background-color: yellow;
+
+}
+
+
+footer{
+  width: 100%;
+  min-height: 300px;
+  background-color: maroon;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+
+}
+
+.footer-list{
+  margin-top: 20px;
+  list-style-type: none;
+  color: #fbfbfb;
+  font-size: 1.5em;
+}
+.footer-list li{
+  padding: 10px;
+}
+.footer-list li a{
+  color: #fbfbfb;
+  text-decoration: none;
+}
+.social-bar{
+  color: #fbfbfb;
+  font-size: 1.5em;
+  margin: 20px;
+  padding: 25px 15px;
+  border: 3px solid #fbfbfb;
+  border-radius: 50px;
+}
+
+.social-bar span{
+  transition: background-color 100ms ease-in-out;
+  width: 20%;
+  height: 100%;
+  padding: 20px;
+  margin: 10px;
+  border-radius: 250px;
+}
+
+.social-bar span:hover{
+  background-color: yellow;
+}
+
+.certificate-info {
+  width: 100%;
+  padding: 15px 0px;
+  background-color: green;
+  text-align: center;
+}
+.certificate-info p a {
+  color: #fbfbfb;
+  padding: 10px;
+  background-color: purple;
 }
 /*MEDIUM*/
 
