@@ -1,0 +1,93 @@
+.bootstrap-iso .formden_header h2, .bootstrap-iso .formden_header p, .bootstrap-iso form{font-family: Arial, Helvetica, sans-serif; color: black}.bootstrap-iso form button, .bootstrap-iso form button:hover{color: white !important;} .asteriskField{color: red;}
+  
+#calendarButton {
+    display: none;
+}
+#reservedTimesArrayField {
+    display: none;
+}
+
+.bootstrap-iso .row {
+  display: flex;
+  justify-content: center;
+}
+body {
+  font-family: arial;
+}
+.timeTable{
+  min-height:250px;
+  margin-bottom: 25px;
+  width: 100%;
+}
+.timeTable th{
+  text-align: center !important;
+}
+
+.active{
+  background-color: skyblue;
+}
+
+.reserved {
+  background-color: indianred;
+}
+.reserved:hover{
+  cursor:not-allowed;
+  background-color: indianred; 
+} 
+.blink{
+-webkit-animation:   blinky 1s;
+  -moz-animation:    blinky 1s; 
+  -o-animation:      blinky 1s; 
+  animation:         blinky 1s;  
+  animation-duration: 2s; 
+}
+@-webkit-keyframes blinky {
+  0%   {background-color: #0277bd;} 
+  25%  {background-color: skyblue;}
+  50%  {background-color: #0277bd;}
+  75%  {background-color: skyblue;}
+  100% {background-color: #0277bd;}
+}
+
+
+
+th,
+td {
+  margin: 0;
+  text-align: center;
+  border-collapse: collapse;
+  outline: 1px solid #e3e3e3;
+}
+
+td {
+  padding: 5px 10px;
+}
+
+.timeTable th {
+  background: #0277bd;
+  color: white;
+  padding: 5px 10px;
+}
+.datepicker-months table tbody tr td:hover{
+  background-color: white;
+  color: black;
+}
+.datepicker-years table tbody tr td:hover{
+  background-color: white;
+  color: black;
+}
+#timeTable td{
+    transition: background-color 1s ease-in-out;
+}
+td:hover {
+  cursor: pointer;
+  background: #87cefa;
+  color: white;
+}
+.datepicker-days table tbody tr>:nth-child(2) {
+  display: none;
+}
+.datepicker-days table thead :nth-child(2) :nth-child(2) {
+  display: none;
+}
+

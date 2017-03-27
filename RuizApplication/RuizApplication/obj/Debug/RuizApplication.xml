@@ -15,15 +15,6 @@ Auto-generated field.
 To modify move field declaration from designer file to code-behind file.
 </remarks>
 </member>
-<member name="F:RuizApplication._Default._Calendar1">
-<summary>
-Calendar1 control.
-</summary>
-<remarks>
-Auto-generated field.
-To modify move field declaration from designer file to code-behind file.
-</remarks>
-</member>
 <member name="F:RuizApplication._Default._sendContactButton">
 <summary>
 sendContactButton control.
@@ -63,6 +54,105 @@ To modify move field declaration from designer file to code-behind file.
  <summary>
  Returns the Asp log object.
  </summary>
+</member>
+<member name="F:RuizApplication.Reservation._webForm">
+<summary>
+webForm control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:RuizApplication.Reservation._date">
+<summary>
+date control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:RuizApplication.Reservation._calendarButton">
+<summary>
+calendarButton control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:RuizApplication.Reservation._calendarHiddenField">
+<summary>
+calendarHiddenField control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:RuizApplication.Reservation._reservedTimesArrayField">
+<summary>
+reservedTimesArrayField control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:RuizApplication.Reservation._reserveButton">
+<summary>
+reserveButton control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:RuizApplication.Reservation._weekDayInput">
+<summary>
+weekDayInput control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:RuizApplication.Reservation._weekNumberInput">
+<summary>
+weekNumberInput control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:RuizApplication.Reservation._isFormFilled">
+<summary>
+isFormFilled control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:RuizApplication.Reservation._selectedTimes">
+<summary>
+selectedTimes control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:RuizApplication.WebForm1._form1">
+<summary>
+form1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
 </member>
 </members>
 </doc>

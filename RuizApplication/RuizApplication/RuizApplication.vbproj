@@ -94,9 +94,7 @@
     <Reference Include="System.Web.Services" />
     <Reference Include="System.EnterpriseServices" />
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="AppData\" />
-  </ItemGroup>
+  <ItemGroup />
   <ItemGroup>
     <Import Include="Microsoft.VisualBasic" />
     <Import Include="System" />
@@ -121,10 +119,21 @@
     <Import Include="System.Web.UI.HtmlControls" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="AppData\Appointments.txt" />
+    <Content Include="AppData\images\waterpark.jpg" />
+    <Content Include="AppData\images\waterpark1.jpg" />
+    <Content Include="AppData\images\waterpark2.jpg" />
+    <Content Include="AppData\images\waterpark3.jpg" />
+    <Content Include="AppData\TimeSlots.txt" />
     <Content Include="AppointmentTimes.txt" />
     <Content Include="Default.aspx" />
     <Content Include="JavaScript.js" />
+    <Content Include="ReservationPage\js\index.js" />
+    <Content Include="ReservationPage\js\knockout-3.4.2.js" />
+    <Content Include="ReservationPage\Reservation.aspx" />
+    <Content Include="ReservationPage\css\style.css" />
     <Content Include="StyleSheet1.css" />
+    <Content Include="SuccessPage\Success.aspx" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
@@ -154,6 +163,20 @@
       <DependentUpon>Settings.settings</DependentUpon>
       <DesignTimeSharedInput>True</DesignTimeSharedInput>
     </Compile>
+    <Compile Include="ReservationPage\Reservation.aspx.designer.vb">
+      <DependentUpon>Reservation.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ReservationPage\Reservation.aspx.vb">
+      <DependentUpon>Reservation.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="SuccessPage\Success.aspx.designer.vb">
+      <DependentUpon>Success.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="SuccessPage\Success.aspx.vb">
+      <DependentUpon>Success.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
     <EmbeddedResource Include="My Project\Resources.resx">
@@ -166,11 +189,13 @@
   <ItemGroup>
     <Content Include="ApplicationInsights.config">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <SubType>Designer</SubType>
     </Content>
     <None Include="My Project\Application.myapp">
       <Generator>MyApplicationCodeGenerator</Generator>
       <LastGenOutput>Application.Designer.vb</LastGenOutput>
     </None>
+    <None Include="My Project\PublishProfiles\waterlandiax.pubxml" />
     <None Include="My Project\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <CustomToolNamespace>My</CustomToolNamespace>
