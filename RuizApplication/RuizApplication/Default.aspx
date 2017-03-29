@@ -1,4 +1,4 @@
-﻿<%@ Page Language="vb" AutoEventWireup="false" CodeBehind="Default.aspx.vb" Inherits="RuizApplication._Default" %>
+<%@ Page Language="vb" AutoEventWireup="false" CodeBehind="Default.aspx.vb" Inherits="RuizApplication._Default" %>
 
 <!DOCTYPE html>
 
@@ -8,16 +8,28 @@
  and didn't want to upload a font for logos so,
  I used Bootstrap's built in logo font.
  I also used it because it allowed me
- to work on mobile first. -->
+ to work on mobile first. -Trevor :) -->
 <head runat="server">
     <title>Waterlandia - Home</title>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+
+    <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" />
+
+    <!-- Font Family -->
     <link href="https://fonts.googleapis.com/css?family=Montserrat|Lato|Muli" rel="stylesheet" type="text/css" />
+
+    <!-- JQuery -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+
+    <!-- Bootstrap JS -->
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+    <!-- CSS -->
     <link href="StyleSheet1.css" rel="stylesheet" type="text/css" />
+
 </head>
 
 <body id="myPage" data-spy="scroll" data-target=".navbar" data-offset="60">
@@ -57,9 +69,9 @@ may be best -->
             <div id="about" class="container-fluid">
                 <div class="row">
                     <div class="col-sm-8">
-                        <h2>About (us?) Page</h2>
+                        <h2>About</h2>
                         <br />
-                        <h4>Waterlandia is a waterpark where lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</h4>
+                        <h4>Waterlandia is a waterpark that is unlike anything you've ever seen. We have loads of activities as well as rides. In total, we have fifteen rides and more soon to follow. Each one of our rides are unique in their own way and are constantly checked for safety issues. </h4>
                         <br />
 
                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
@@ -69,7 +81,7 @@ may be best -->
                             <button class="btn btn-default btn-lg">Get in Touch</button></a>
                     </div>
                     <div class="col-sm-4">
-                        <span class="glyphicon glyphicon-signal logo"></span>
+                        <!-- To add glyphicons | <span class="glyphicon glyphicon-signal logo"--><img style="width: 100%;" src="AppData/images/waterslide.png" alt="water slide image"/>
                     </div>
                 </div>
             </div>
@@ -273,9 +285,9 @@ may be best -->
                 <div class="row">
                     <div class="col-sm-5">
                         <p>Contact us and we'll get back to you within 24 hours.</p>
-                        <p><span class="glyphicon glyphicon-map-marker"></span>Phoenix, US</p>
-                        <p><span class="glyphicon glyphicon-phone"></span>+1 (480)-515-1515</p>
-                        <p><span class="glyphicon glyphicon-envelope"></span>Waterlandia@Waterlandia-Business.com</p>
+                        <p><span class="glyphicon glyphicon-map-marker"></span> Phoenix, US</p>
+                        <p><span class="glyphicon glyphicon-phone"></span> +1 (480)-515-1515</p>
+                        <p><span class="glyphicon glyphicon-envelope"></span> Waterlandia@Waterlandia-Business.com</p>
                     </div>
                     <div class="col-sm-7 slideanim">
                         <div class="row">
@@ -303,6 +315,7 @@ may be best -->
         </asp:Panel>
     </form>
     
+    <!-- Not supported in IE -->
     <div class='water-box'>
         <svg width="0px" height="0px">
             <defs>
@@ -328,6 +341,7 @@ may be best -->
             </defs>
         </svg>
     </div>
+    <!--End of IE incompatibility -->
     <div id="footer" class="container-fluid bg-grey">
 
         <div class="row">
