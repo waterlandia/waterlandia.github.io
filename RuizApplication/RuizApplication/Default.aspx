@@ -73,7 +73,7 @@
                         </a>
                     </div>
                     <div class="col-sm-4">
-                        <img style="width: 100%;" src="AppData/images/waterslide.png" alt="water slide image"/>
+                        <img style="width: 70%;" src="AppData/images/waterslide.png" alt="water slide image"/>
                     </div>
                 </div>
             </div>
