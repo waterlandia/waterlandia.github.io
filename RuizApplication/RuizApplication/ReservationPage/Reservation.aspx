@@ -19,9 +19,13 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" />
     <link href="https://fonts.googleapis.com/css?family=Montserrat|Lato|Muli" rel="stylesheet" type="text/css" />
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-    <link type="text/css" href="../StyleSheet1.css" rel="stylesheet" />
     
-    <link rel="shortcut icon" type="image/x-icon" href="../AppData/images/favicon.ico" />
+    <!-- CSS -->
+    <link type="text/css" href="/StyleSheet1.css" rel="stylesheet" />
+ 
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="/AppData/images/favicon.ico" type="image/x-icon" />
+
 </head>
 <body>
     <nav class="navbar navbar-default navbar-fixed-top">
@@ -32,7 +36,7 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                <a class="navbar-brand" href="#myPage"><span class="glyphicon glyphicon-tint"></span></a>
+                <a class="navbar-brand" href="/Default.aspx"><img width="30" height="30" style="padding-bottom: 5px;" src="/AppData/images/RuizWaterlandiaLogo.svg" alt="Waterlandia Logo" /></a>
             </div>
             <div class="collapse navbar-collapse" id="myNavbar">
                 <ul class="nav navbar-nav navbar-right">
