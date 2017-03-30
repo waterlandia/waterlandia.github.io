@@ -130,11 +130,14 @@
     <Content Include="AppointmentTimes.txt" />
     <Content Include="Default.aspx" />
     <Content Include="JavaScript.js" />
+    <Content Include="LicensesPage\Licenses.aspx" />
+    <Content Include="LicensesPage\licenses.css" />
     <Content Include="ReservationPage\js\index.js" />
     <Content Include="ReservationPage\js\knockout-3.4.2.js" />
     <Content Include="ReservationPage\Reservation.aspx" />
     <Content Include="ReservationPage\css\style.css" />
     <Content Include="StyleSheet1.css" />
+    <Content Include="SuccessPage\StyleSheet2.css" />
     <Content Include="SuccessPage\Success.aspx" />
     <Content Include="Web.config" />
   </ItemGroup>
@@ -144,6 +147,13 @@
     </Compile>
     <Compile Include="Default.aspx.vb">
       <DependentUpon>Default.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="LicensesPage\Licenses.aspx.designer.vb">
+      <DependentUpon>Licenses.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="LicensesPage\Licenses.aspx.vb">
+      <DependentUpon>Licenses.aspx</DependentUpon>
       <SubType>ASPXCodebehind</SubType>
     </Compile>
     <Compile Include="My Project\AssemblyInfo.vb" />

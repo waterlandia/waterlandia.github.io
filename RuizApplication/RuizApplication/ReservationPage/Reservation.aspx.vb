@@ -44,6 +44,7 @@ Public Class Reservation
             ' write new text back to the file (by completely overwriting the old content)
             System.IO.File.WriteAllText(rootDirectory + "AppData\TimeSlots.txt", content)
             reservedTimesArrayField.Text = readNthLine(rootDirectory + "AppData\TimeSlots.txt", newReservedTimes(0) - 1)
+            Response.Redirect("/successpage/success.aspx")
         End If
     End Sub
 

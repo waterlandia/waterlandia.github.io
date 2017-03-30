@@ -6,6 +6,9 @@
 #reservedTimesArrayField {
     display: none;
 }
+#footer{
+    padding-top: 80px;
+}
 
 .bootstrap-iso .row {
   display: flex;

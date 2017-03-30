@@ -1,0 +1,21 @@
+﻿body {
+}
+.checkMark {
+    font-size: 12em;
+    color: forestgreen;
+    width: 350px;
+    text-align: center;
+    background-color: aliceblue;
+    border-radius: 1000px;
+    height: 350px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.mainContainer {
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}

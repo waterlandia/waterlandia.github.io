@@ -14,7 +14,7 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" />
 
     <!-- Font Family -->
-    <link href="https://fonts.googleapis.com/css?family=Montserrat|Lato|Muli" rel="stylesheet" type="text/css" />
+    <link href="https://fonts.googleapis.com/css?family=Montserrat|Muli|Leckerli+One" rel="stylesheet" type="text/css" />
 
     <!-- JQuery -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
@@ -74,7 +74,7 @@
                         </a>
                     </div>
                     <div class="col-sm-4">
-                        <img style="width: 70%;" src="AppData/images/waterslide.png" alt="water slide image"/>
+                        <img class="waterslideImage" src="AppData/images/waterslide.png" alt="water slide image"/>
                     </div>
                 </div>
             </div>
@@ -82,7 +82,7 @@
             <div class="container-fluid bg-grey">
                 <div class="row">
                     <div class="col-sm-4">
-                        <img src="/AppData/images/RuizWaterlandiaLogo.svg" alt="Waterlandia Large Logo" />
+                        <img class="waterlandiaLogo" src="/AppData/images/RuizWaterlandiaLogo.svg" alt="Waterlandia Large Logo" />
                     </div>
                     <div class="col-sm-8">
                         <h2>Our Values</h2>
@@ -338,6 +338,7 @@
             <a href="#myPage"><span class="glyphicon glyphicon-chevron-up"></span></a><br />
             <a style="text-decoration: none;" href="#myPage">Back To Top</a> 
         </div>
+        <div class="licenses"><a href="Licenses.aspx">Licenses</a></div>
     </div>
 
 </body>

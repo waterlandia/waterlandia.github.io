@@ -35,7 +35,10 @@ h4 {
     font-family: 'Montserrat', sans-serif;
     background-image: url("");
 }
-
+.jumbotron h1{
+    font-family: 'Leckerli One';
+    font-size: 3.5em;
+}
 .container-fluid {
     padding: 60px 50px;
 }
@@ -52,6 +55,9 @@ h4 {
 .logo {
     color: #0277bd;
     font-size: 200px;
+}
+.waterlandiaLogo, .waterslideImage {
+    width: 100%;
 }
 
 .slogan {
@@ -156,7 +162,9 @@ h4 {
     .navbar li a, .navbar .navbar-brand {
         color: #fff !important;
     }
-
+    .navbar-brand{
+        padding-top: 10px;
+    }
 .navbar-nav li a:hover, .navbar-nav li.active a {
     color: #efefef !important;
     background-color: #465266 !important;
@@ -218,16 +226,25 @@ footer .glyphicon {
         text-align: center;
         margin: 25px 0;
     }
-
     .btn-lg {
         width: 100%;
         margin-bottom: 35px;
+    }
+    .waterlandiaLogo, .waterslideImage{
+        width: 40%;
     }
 }
 
 @media screen and (max-width: 480px) {
     .logo {
         font-size: 150px;
+    }
+    
+    .jumbotron h1{
+        font-size: 2.5em;
+    }
+    .waterlandiaLogo, .waterslideImage{
+        width: 80%;
     }
 }
 
@@ -246,7 +263,7 @@ button.navbar-toggle {
 }
 #footer{ 
     margin-top: -70px;
-    padding-top: 80px;
+    padding-top: 200px;
 }
 #imageCarousel .carousel-control.right, #imageCarousel .carousel-control.left{
     color: white;
@@ -257,4 +274,8 @@ button.navbar-toggle {
 }
 #imageCarousel .carousel-indicators li{
     border-color: white;
+}
+.licenses{
+    width: 100%;
+    text-align: center;
 }
