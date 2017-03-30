@@ -7,7 +7,8 @@
     <title>Waterlandia - Home</title>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="/AppData/images/favicon.ico" type="image/x-icon" />
 
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" />
@@ -38,7 +39,7 @@
                             <span class="icon-bar"></span>
                             <span class="icon-bar"></span>
                         </button>
-                        <a class="navbar-brand" href="#myPage"><span class="glyphicon glyphicon-tint"></span></a>
+                        <a class="navbar-brand" href="#myPage"><img width="30" height="30" style="padding-bottom: 5px;" src="/AppData/images/RuizWaterlandiaLogo.svg" alt="Waterlandia Logo" /></a>
                     </div>
                     <div class="collapse navbar-collapse" id="myNavbar">
                         <ul class="nav navbar-nav navbar-right">
@@ -73,7 +74,7 @@
                         </a>
                     </div>
                     <div class="col-sm-4">
-                        <img style="width: 100%;" src="AppData/images/waterslide.png" alt="water slide image"/>
+                        <img style="width: 70%;" src="AppData/images/waterslide.png" alt="water slide image"/>
                     </div>
                 </div>
             </div>
@@ -81,7 +82,7 @@
             <div class="container-fluid bg-grey">
                 <div class="row">
                     <div class="col-sm-4">
-                        <span class="glyphicon glyphicon-tint logo slideanim"></span>
+                        <img src="/AppData/images/RuizWaterlandiaLogo.svg" alt="Waterlandia Large Logo" />
                     </div>
                     <div class="col-sm-8">
                         <h2>Our Values</h2>

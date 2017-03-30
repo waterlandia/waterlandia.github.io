@@ -5,7 +5,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head runat="server">
     <meta charset="UTF-8" />
-    <title>Reservations</title>
+    <title>Waterlandia - Reservations</title>
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <script type="text/javascript" src="js/knockout-3.4.2.js"></script>
     <link rel="stylesheet" href="css/style.css" type="text/css" />
@@ -19,9 +19,13 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" />
     <link href="https://fonts.googleapis.com/css?family=Montserrat|Lato|Muli" rel="stylesheet" type="text/css" />
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-    <link type="text/css" href="../StyleSheet1.css" rel="stylesheet" />
     
-    <link rel="shortcut icon" type="image/x-icon" href="../AppData/images/favicon.ico" />
+    <!-- CSS -->
+    <link type="text/css" href="/StyleSheet1.css" rel="stylesheet" />
+ 
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="/AppData/images/favicon.ico" type="image/x-icon" />
+
 </head>
 <body>
     <nav class="navbar navbar-default navbar-fixed-top">
@@ -32,7 +36,7 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                <a class="navbar-brand" href="#myPage"><span class="glyphicon glyphicon-tint"></span></a>
+                <a class="navbar-brand" href="/Default.aspx"><img width="30" height="30" style="padding-bottom: 5px;" src="/AppData/images/RuizWaterlandiaLogo.svg" alt="Waterlandia Logo" /></a>
             </div>
             <div class="collapse navbar-collapse" id="myNavbar">
                 <ul class="nav navbar-nav navbar-right">
@@ -44,7 +48,7 @@
             </div>
         </div>
     </nav>
-    <div class="jumbotron text-center">
+    <div id="topPage" class="jumbotron text-center">
         <h1>Waterlandia</h1>
         <!-- Possibly change the slogan color to something else or encase the whole paragraph tag with the color -->
         <p>We specialize in <span class="slogan">bringing families together</span>.</p>
@@ -255,29 +259,22 @@
             </defs>
         </svg>
     </div>
+    
     <div id="footer" class="container-fluid bg-grey">
 
-        <div class="row">
-            <div class="col-sm-5">
-                <h2>Site Navigation</h2>
-                <a href="../Default.aspx#about">
-                    <p>ABOUT</p>
-                </a>
-                <a href="../Default.aspx#services">
-                    <p>ACTIVITIES & FOOD</p>
-                </a>
-                <a href="../Default.aspx#pricing">
-                    <p>PARTY PACKAGES</p>
-                </a>
-                <a href="../Default.aspx#contact">
-                    <p>CONTACT</p>
-                </a>
-            </div>
-            <div class="col-sm-7">
-                <h4><strong>MISSION:</strong> Our mission at Waterlandia is to bring families and friends together. lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</h4>
-            </div>
+        <div style="text-align: center;">
+            <a href="#topPage"><span class="glyphicon glyphicon-chevron-up"></span></a><br />
+            <a style="text-decoration: none;" href="#topPage">Back To Top</a> 
+        </div>
+        <br />
+        <div style="text-align: center;">
+            <a style="text-decoration: none;" href="/Default.aspx">Back To Home</a><br />
+            <a href="/Default.aspx"><span class="glyphicon glyphicon-chevron-down"></span></a>
         </div>
     </div>
+    
+    
+    
     <!-- Extra JavaScript/CSS added manually in "Settings" tab -->
     <!-- Include jQuery -->
     <script src="js/index.js"></script>
