@@ -120,6 +120,8 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="AppData\Appointments.txt" />
+    <Content Include="AppData\images\favicon.ico" />
+    <Content Include="AppData\images\RuizWaterlandiaLogo.svg" />
     <Content Include="AppData\images\waterpark.jpg" />
     <Content Include="AppData\images\waterpark1.jpg" />
     <Content Include="AppData\images\waterpark2.jpg" />

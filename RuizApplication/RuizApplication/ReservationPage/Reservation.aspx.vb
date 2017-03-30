@@ -23,6 +23,7 @@ Public Class Reservation
     End Function
 
     Protected Sub reserveButton_Click(sender As Object, e As EventArgs) Handles reserveButton.Click
+        Dim rootDirectory As String = HttpContext.Current.Server.MapPath("/")
         Dim oldReservedTimes() As String = reservedTimesArrayField.Text.Split(",")
         Dim selection() As String = selectedTimes.Value.Split(",")
         Dim newReservedTimes As New List(Of String)
@@ -37,21 +38,22 @@ Public Class Reservation
         Else
             Dim content As String
             ' read all text from the file to the content variable
-            content = System.IO.File.ReadAllText("C:\Users\xruiz\Desktop\RuizApplication\RuizApplication\AppData\TimeSlots.txt")
+            content = System.IO.File.ReadAllText(rootDirectory + "AppData\TimeSlots.txt")
             ' replace number, text, etc. in code
             content = content.Replace(String.Join(",", oldReservedTimes), String.Join(",", newReservedTimes))
             ' write new text back to the file (by completely overwriting the old content)
-            System.IO.File.WriteAllText("C:\Users\xruiz\Desktop\RuizApplication\RuizApplication\AppData\TimeSlots.txt", content)
-            reservedTimesArrayField.Text = readNthLine("C:\Users\xruiz\Desktop\RuizApplication\RuizApplication\AppData\TimeSlots.txt", newReservedTimes(0) - 1)
+            System.IO.File.WriteAllText(rootDirectory + "AppData\TimeSlots.txt", content)
+            reservedTimesArrayField.Text = readNthLine(rootDirectory + "AppData\TimeSlots.txt", newReservedTimes(0) - 1)
         End If
     End Sub
 
     'This event is fired by JS once the calendarTextBox has been changed and now VB is able to get live information for the timeslots
     Private Sub calendarButton_Click(sender As Object, e As EventArgs) Handles calendarButton.Click
+        Dim rootDirectory As String = HttpContext.Current.Server.MapPath("/")
         Dim weekNumber As Integer
         Dim reservedTimesArray As String
         Integer.TryParse(calendarHiddenField.Value, weekNumber)
-        reservedTimesArray = readNthLine("C:\Users\xruiz\Desktop\test.txt", weekNumber)
+        reservedTimesArray = readNthLine(rootDirectory + "AppData/TimeSlots.txt", weekNumber)
         reservedTimesArrayField.Text = reservedTimesArray
     End Sub
 

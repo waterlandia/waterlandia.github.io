@@ -5,7 +5,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head runat="server">
     <meta charset="UTF-8" />
-    <title>DATES2</title>
+    <title>Reservations</title>
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <script type="text/javascript" src="js/knockout-3.4.2.js"></script>
     <link rel="stylesheet" href="css/style.css" type="text/css" />
@@ -20,6 +20,8 @@
     <link href="https://fonts.googleapis.com/css?family=Montserrat|Lato|Muli" rel="stylesheet" type="text/css" />
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
     <link type="text/css" href="../StyleSheet1.css" rel="stylesheet" />
+    
+    <link rel="shortcut icon" type="image/x-icon" href="../AppData/images/favicon.ico" />
 </head>
 <body>
     <nav class="navbar navbar-default navbar-fixed-top">
