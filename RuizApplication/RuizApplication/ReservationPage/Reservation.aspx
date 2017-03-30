@@ -266,6 +266,11 @@
             <a href="#topPage"><span class="glyphicon glyphicon-chevron-up"></span></a><br />
             <a style="text-decoration: none;" href="#topPage">Back To Top</a> 
         </div>
+        <br />
+        <div style="text-align: center;">
+            <a style="text-decoration: none;" href="/Default.aspx">Back To Home</a><br />
+            <a href="/Default.aspx"><span class="glyphicon glyphicon-chevron-down"></span></a>
+        </div>
     </div>
     
     
