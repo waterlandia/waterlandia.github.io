@@ -1,22 +1,21 @@
 ﻿// Please don't mess around with this! This is for smooth scrolling when you click the links on the nav.
 $(document).ready(function () {
-    // Add smooth scrolling to all links in navbar + footer link + actual footer links
     $(".navbar a, footer a[href='#myPage'], #footer a").on('click', function (event) {
-        // Make sure this.hash has a value before overriding default behavior
+        // Makes sure this.hash has a value before overriding default behavior
         if (this.hash !== "") {
-            // Prevent default anchor click behavior
+            // Prevents default anchor click behavior (No teleporting down the page)
             event.preventDefault();
 
-            // Store hash
+            // Store the hash
             var hash = this.hash;
 
             // Using jQuery's animate() method to add smooth page scroll
-            // The optional number (900) specifies the number of milliseconds it takes to scroll to the specified area
+            // Currently : 900 Milliseconds for animation
             $('html, body').animate({
                 scrollTop: $(hash).offset().top
             }, 900, function () {
 
-                // Add hash (#) to URL when done scrolling (default click behavior)
+                // Add hash to URL when done scrolling
                 window.location.hash = hash;
             });
         } // End if

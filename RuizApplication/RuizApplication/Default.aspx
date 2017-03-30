@@ -3,12 +3,6 @@
 <!DOCTYPE html>
 
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en">
-<!-- This is made mostly out of bootstrap
- because I gave up on most of CSS
- and didn't want to upload a font for logos so,
- I used Bootstrap's built in logo font.
- I also used it because it allowed me
- to work on mobile first. -Trevor :) -->
 <head runat="server">
     <title>Waterlandia - Home</title>
     <meta charset="utf-8" />
@@ -56,13 +50,10 @@
                 </div>
             </nav>
 
-            <!-- WE NEED A BACKGROUND IMAGE(S?) FOR THIS DIV (Div below the nav bar at the top of page) -->
-            <!-- If we add multiple pictures we could transition through them, however having a static image
-may be best -->
+            
             <div class="jumbotron text-center">
                 <h1>Waterlandia</h1>
-                <!-- Possibly change the slogan color to something else or encase the whole paragraph tag with the color -->
-                <p>We specialize in <span class="slogan">bringing families together</span>.</p>
+                <p><span class="slogan">Bringing families together</span>.</p>
             </div>
 
             <!-- Container (About Section) -->
@@ -71,17 +62,17 @@ may be best -->
                     <div class="col-sm-8">
                         <h2>About</h2>
                         <br />
-                        <h4>Waterlandia is a waterpark that is unlike anything you've ever seen. We have loads of activities as well as rides. In total, we have fifteen rides and more soon to follow. Each one of our rides are unique in their own way and are constantly checked for safety issues. </h4>
+                        <h4>Waterlandia is a waterpark that is unlike anything you've ever seen. We have loads of activities as well as rides. In total, we have fifteen rides and more soon to follow. Each one of our rides are unique in their own way and are constantly checked for safety issues. You are bound to find a ride that suits you here at Waterlandia!</h4>
                         <br />
 
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-                        <!-- Link this to a CONTACT US page -->
+                        <p>Waterlandia also enjoys working with the community. We are always open to throw a nonprofit fundraiser at Waterlandia. We would also be happy to sponsor nonprofit events in the local area. To learn more about Waterlandia and our nonprofit support, please fill out a contact form by clicking the button below. </p>
                         <br />
                         <a href="#contact">
-                            <button class="btn btn-default btn-lg">Get in Touch</button></a>
+                            <button class="btn btn-default btn-lg">Contact</button>
+                        </a>
                     </div>
                     <div class="col-sm-4">
-                        <!-- To add glyphicons | <span class="glyphicon glyphicon-signal logo"--><img style="width: 100%;" src="AppData/images/waterslide.png" alt="water slide image"/>
+                        <img style="width: 100%;" src="AppData/images/waterslide.png" alt="water slide image"/>
                     </div>
                 </div>
             </div>
@@ -94,18 +85,16 @@ may be best -->
                     <div class="col-sm-8">
                         <h2>Our Values</h2>
                         <br />
-                        <h4><strong>MISSION:</strong> Our mission at Waterlandia is to bring families and friends together. lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</h4>
+                        <h4><strong>MISSION:</strong> To bring families and friends together.</h4>
                         <br />
                         <p>
-                            <strong>VISION:</strong> Our vision Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                            <strong>VISION:</strong> Our vision at Waterlandia is to bring the greatest quality of fun and adventure (while staying safe) to every customer. By the end of the day, we hope families, and friends, will be closer than ever before.
                         </p>
                     </div>
                 </div>
             </div>
 
             <!-- Container (Services Section) -->
-            <!-- Also Can Be Used As A Central Link "Hub" -->
             <div id="services" class="container-fluid text-center">
                 <h2>ACTIVITIES & FOOD</h2>
                 <h4>Where the fun starts!</h4>
@@ -164,20 +153,20 @@ may be best -->
                     <!-- Wrapper for slides -->
                     <div class="carousel-inner" role="listbox">
                         <div class="item active">
-                            <h4>"My family and I always have a great time!"<br />
-                                <span>Trevor Moore, Person</span></h4>
+                            <h4>"My family and I always have a great time at Waterlandia!"<br />
+                                <span>Trevor Moore, Customer</span></h4>
                         </div>
                         <div class="item">
                             <h4>"Whether you're with children, or elders, you are going to have a great time here!"<br />
-                                <span>John Doe, Person</span></h4>
+                                <span>John Richen, Loyal Customer</span></h4>
                         </div>
                         <div class="item">
-                            <h4>"One word... FUN!!"<br />
-                                <span>Xavier Ruiz, Person</span></h4>
+                            <h4>"The amount of things to do at Waterlandia is mind blowing!"<br />
+                                <span>Xavier Ruiz, Customer</span></h4>
                         </div>
                     </div>
 
-                    <!-- Left and right controls -->
+                    <!-- Left and right controls for the carousel -->
                     <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
                         <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
                         <span class="sr-only">Previous</span>
@@ -202,7 +191,7 @@ may be best -->
                                 <h1>Starfish Package (4 and Under)</h1>
                             </div>
                             <div class="panel-body">
-                                Great for the little ones, we put on extra staff on board to help keep watch and everyone gets a goodybag!
+                                Great for the little ones, we put extra staff on board to help keep watch and everyone gets a goodybag!
                             </div>
                             <div class="panel-footer">
                                 <asp:Button class="btn btn-lg" runat="server" Text="Reserve Now" PostBackUrl="~/ReservationPage/Reservation.aspx" UseSubmitBehavior="false"></asp:Button>
@@ -238,7 +227,7 @@ may be best -->
                 </div>
             </div>
             <div id="imageCarousel" class="carousel slide" data-ride="carousel">
-        <!-- Indicators -->
+        <!-- Carousel Indicators -->
         <ol class="carousel-indicators">
             <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
             <li data-target="#myCarousel" data-slide-to="1"></li>
@@ -279,7 +268,7 @@ may be best -->
         </asp:Panel>
 
         <asp:Panel runat="server">
-            <!-- Container (Contact Section) MAY STAY! HOWEVER FOR CONTACT PAGE WE ARE GOING TO ADD MORE WAYS OF CONTACT (AND LOCATIONS) -->
+            <!--Container (Contact Section)-->
             <div id="contact" class="container-fluid bg-grey">
                 <h2 class="text-center">CONTACT</h2>
                 <div class="row">
@@ -300,7 +289,6 @@ may be best -->
                             </div>
                         </div>
                         <textarea class="form-control" id="comments" name="comments" placeholder="Comment" rows="5"></textarea><br />
-
                         <div class="row">
 
                             <div class="col-sm-12 form-group">
@@ -315,7 +303,7 @@ may be best -->
         </asp:Panel>
     </form>
     
-    <!-- Not supported in IE -->
+    <!-- SVG not supported in IE -->
     <div class='water-box'>
         <svg width="0px" height="0px">
             <defs>
@@ -344,25 +332,9 @@ may be best -->
     <!--End of IE incompatibility -->
     <div id="footer" class="container-fluid bg-grey">
 
-        <div class="row">
-            <div class="col-sm-5">
-                <h2>Site Navigation</h2>
-                <a href="#about">
-                    <p>ABOUT</p>
-                </a>
-                <a href="#services">
-                    <p>ACTIVITIES & FOOD</p>
-                </a>
-                <a href="#pricing">
-                    <p>PARTY PACKAGES</p>
-                </a>
-                <a href="#contact">
-                    <p>CONTACT</p>
-                </a>
-            </div>
-            <div class="col-sm-7 slideanim">
-                <h4><strong>MISSION:</strong> Our mission at Waterlandia is to bring families and friends together. lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</h4>
-            </div>
+        <div style="text-align: center;">
+            <a href="#myPage"><span class="glyphicon glyphicon-chevron-up"></span></a><br />
+            <a style="text-decoration: none;" href="#myPage">Back To Top</a> 
         </div>
     </div>
 
