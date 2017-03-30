@@ -1,4 +1,4 @@
-<%@ Page Language="vb" AutoEventWireup="false" CodeBehind="Default.aspx.vb" Inherits="RuizApplication._Default" %>
+﻿<%@ Page Language="vb" AutoEventWireup="false" CodeBehind="Default.aspx.vb" Inherits="RuizApplication._Default" %>
 
 <!DOCTYPE html>
 
@@ -24,6 +24,7 @@
     <!-- CSS -->
     <link href="StyleSheet1.css" rel="stylesheet" type="text/css" />
 
+    <link rel="shortcut icon" type="image/x-icon" href="AppData/images/favicon.ico" />
 </head>
 
 <body id="myPage" data-spy="scroll" data-target=".navbar" data-offset="60">
@@ -68,7 +69,7 @@
                         <p>Waterlandia also enjoys working with the community. We are always open to throw a nonprofit fundraiser at Waterlandia. We would also be happy to sponsor nonprofit events in the local area. To learn more about Waterlandia and our nonprofit support, please fill out a contact form by clicking the button below. </p>
                         <br />
                         <a href="#contact">
-                            <button class="btn btn-default btn-lg">Contact</button>
+                            <div class="btn btn-default btn-lg">Contact</div>
                         </a>
                     </div>
                     <div class="col-sm-4">
@@ -194,7 +195,7 @@
                                 Great for the little ones, we put extra staff on board to help keep watch and everyone gets a goodybag!
                             </div>
                             <div class="panel-footer">
-                                <asp:Button class="btn btn-lg" runat="server" Text="Reserve Now" PostBackUrl="~/ReservationPage/Reservation.aspx" UseSubmitBehavior="false"></asp:Button>
+                                <asp:Button runat="server" Text="Reserve Now" PostBackUrl="~/ReservationPage/Reservation.aspx" UseSubmitBehavior="false" CssClass="btn btn-lg"></asp:Button>
                             </div>
                         </div>
                     </div>
@@ -207,7 +208,7 @@
                                 Bark! Bark! The Sea Lion Package is great for children of all types and each child gets a goodybag as well as a small snack.
                             </div>
                             <div class="panel-footer">
-                                <asp:Button class="btn btn-lg" runat="server" Text="Reserve Now" PostBackUrl="~/ReservationPage/Reservation.aspx" UseSubmitBehavior="false"></asp:Button>
+                                <asp:Button CssClass="btn btn-lg" runat="server" Text="Reserve Now" PostBackUrl="~/ReservationPage/Reservation.aspx" UseSubmitBehavior="false" ></asp:Button>
                             </div>
                         </div>
                     </div>
@@ -220,7 +221,7 @@
                                 This package is great for teenages and even adults! Every guest 12 and older will receive a lunch voucher that can be used in the cafeteria at one of our vendors!
                             </div>
                             <div class="panel-footer">
-                                <asp:Button class="btn btn-lg" runat="server" Text="Reserve Now" PostBackUrl="~/ReservationPage/Reservation.aspx" UseSubmitBehavior="false"></asp:Button>
+                                <asp:Button CssClass="btn btn-lg" runat="server" Text="Reserve Now" PostBackUrl="~/ReservationPage/Reservation.aspx" UseSubmitBehavior="false"></asp:Button>
                             </div>
                         </div>
                     </div>
@@ -292,7 +293,7 @@
                         <div class="row">
 
                             <div class="col-sm-12 form-group">
-                                <asp:Button runat="server" class="btn btn-default pull-right" ID="sendContactButton" Text="Contact"></asp:Button>
+                                <asp:Button runat="server" Cssclass="btn btn-default pull-right" ID="sendContactButton" Text="Contact"></asp:Button>
 
                             </div>
                         </div>

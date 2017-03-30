@@ -23,6 +23,11 @@ body {
   text-align: center !important;
 }
 
+.timeTable tr > td {
+   width: calc(100% / 7.5);
+
+}
+
 .active{
   background-color: skyblue;
 }
@@ -90,4 +95,3 @@ td:hover {
 .datepicker-days table thead :nth-child(2) :nth-child(2) {
   display: none;
 }
-

@@ -31,4 +31,11 @@ $(document).ready(function () {
             }
         });
     });
+
+    //To make the nav collapse after a link in it has been clicked
+    $(".navbar-collapse li a").click(function () {
+        if ($(window).width < 768) {
+            $("button.navbar-toggle").click();
+        }
+    });
 });
