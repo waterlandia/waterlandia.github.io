@@ -10,7 +10,7 @@ $(document).ready(function () {
             var hash = this.hash;
 
             // Using jQuery's animate() method to add smooth page scroll
-            // Currently : 900 Milliseconds for animation
+            // Currently: 900 Milliseconds for animation
             $('html, body').animate({
                 scrollTop: $(hash).offset().top
             }, 900, function () {
