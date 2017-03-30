@@ -5,7 +5,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head runat="server">
     <meta charset="UTF-8" />
-    <title>Reservations</title>
+    <title>Waterlandia - Reservations</title>
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <script type="text/javascript" src="js/knockout-3.4.2.js"></script>
     <link rel="stylesheet" href="css/style.css" type="text/css" />
@@ -44,7 +44,7 @@
             </div>
         </div>
     </nav>
-    <div class="jumbotron text-center">
+    <div id="topPage" class="jumbotron text-center">
         <h1>Waterlandia</h1>
         <!-- Possibly change the slogan color to something else or encase the whole paragraph tag with the color -->
         <p>We specialize in <span class="slogan">bringing families together</span>.</p>
@@ -255,29 +255,17 @@
             </defs>
         </svg>
     </div>
+    
     <div id="footer" class="container-fluid bg-grey">
 
-        <div class="row">
-            <div class="col-sm-5">
-                <h2>Site Navigation</h2>
-                <a href="../Default.aspx#about">
-                    <p>ABOUT</p>
-                </a>
-                <a href="../Default.aspx#services">
-                    <p>ACTIVITIES & FOOD</p>
-                </a>
-                <a href="../Default.aspx#pricing">
-                    <p>PARTY PACKAGES</p>
-                </a>
-                <a href="../Default.aspx#contact">
-                    <p>CONTACT</p>
-                </a>
-            </div>
-            <div class="col-sm-7">
-                <h4><strong>MISSION:</strong> Our mission at Waterlandia is to bring families and friends together. lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</h4>
-            </div>
+        <div style="text-align: center;">
+            <a href="#topPage"><span class="glyphicon glyphicon-chevron-up"></span></a><br />
+            <a style="text-decoration: none;" href="#topPage">Back To Top</a> 
         </div>
     </div>
+    
+    
+    
     <!-- Extra JavaScript/CSS added manually in "Settings" tab -->
     <!-- Include jQuery -->
     <script src="js/index.js"></script>
