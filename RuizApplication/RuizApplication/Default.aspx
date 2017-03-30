@@ -1,6 +1,7 @@
 <%@ Page Language="vb" AutoEventWireup="false" CodeBehind="Default.aspx.vb" Inherits="RuizApplication._Default" %>
 
 <!DOCTYPE html>
+
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en">
 <head runat="server">
     <title>Waterlandia - Home</title>
@@ -87,7 +88,7 @@
                         <h4><strong>MISSION:</strong> To bring families and friends together.</h4>
                         <br />
                         <p>
-                            <strong>VISION:</strong> Our vision at Waterlandia is to bring the greatest quality of fun and adventure (while staying safe) to every customer. By the end of the day, we hope families, and friends, will be closer than ever before.
+                            <strong>VISION:</strong> Our vision at Waterlandia is to bring the greatest quality of fun and adventure (while staying safe) to every customer. We hope that everyone is enjoying their day and are riding all of the rides we have to offer! By the end of the day, we hope families, and friends, will be closer than ever before.
                         </p>
                     </div>
                 </div>
